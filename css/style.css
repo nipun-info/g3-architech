@@ -36,7 +36,7 @@ img {
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
-    min-width: 120px;
+    min-width: 100px;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -85,4 +85,42 @@ nav ul a {
     color: #131313;
     font-size: 3.5rem;
     margin-bottom: 1.2rem;
+}
+
+
+
+/* responsive media quries */
+/* small or mobile devices */
+@media screen and (max-width:576px) {
+    .container {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* medium or tablet devices */
+@media screen and (min-width:576px) and (max-width: 960px) {
+    .container {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
 }
