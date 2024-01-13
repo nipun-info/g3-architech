@@ -120,6 +120,7 @@ nav ul a {
     border-radius: 0.5rem;
 }
 
+
 .team-content-card span:nth-child(1){
     color: #727272;
 }
@@ -133,6 +134,39 @@ nav ul a {
 
 /* Fact section start */
 
+.facts-content-card {
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+.facts-achivements {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 2rem;
+}
+
+.facts-info-card {
+    border: 1px solid #FF900E;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.facts-info-card img {
+    max-width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+.facts-info-card .count {
+    color: #424242;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.facts-info-card p {
+    color: #727272;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
 
 /* Sponspor section start */
 
@@ -169,6 +203,15 @@ nav ul a {
         grid-template-columns: 1fr;
         max-width: 200px;
     }
+
+    .facts-achivements {
+        flex-direction: column;
+    }
+    .facts-info-card {
+        padding: 0.8rem 0.2rem;
+    }
+
+   
 
 }
 
